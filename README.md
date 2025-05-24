@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=arapthor&layout=compact&theme=dark&hide_border=true)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=arapthor&layout=compact&theme=dark&hide_border=true&bg_color=00000000)
 <!--
 **arapthor/arapthor** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
