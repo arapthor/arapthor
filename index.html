@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Web</title>
+    <style>
+        /* Estilos CSS básicos para que se vea decente */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        section {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .project-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .project-item {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .project-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>[Tu Nombre]</h1>
+        <p>Desarrollador Web | Diseñador Gráfico | Tu Especialidad</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>¡Hola! Soy [Tu Nombre]. Soy un [tu rol/profesión] con pasión por [tus intereses/lo que haces]. Me encanta [menciona algo que te guste hacer relacionado con tu campo].</p>
+            <p>Mi objetivo es [describe tus objetivos profesionales o lo que buscas].</p>
+        </section>
+
+        <section id="projects">
+            <h2>Mis Proyectos</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="https://via.placeholder.com/300" alt="Proyecto 1">
+                    <h3>Nombre del Proyecto 1</h3>
+                    <p>Una breve descripción de este proyecto. Aquí puedes hablar sobre las tecnologías usadas y tu rol.</p>
+                    <a href="#" target="_blank">Ver Proyecto</a>
+                </div>
+                <div class="project-item">
+                    <img src="https://via.placeholder.com/300" alt="Proyecto 2">
+                    <h3>Nombre del Proyecto 2</h3>
+                    <p>Descripción del segundo proyecto, destacando sus características principales.</p>
+                    <a href="#" target="_blank">Ver Proyecto</a>
+                </div>
+                <div class="project-item">
+                    <img src="https://via.placeholder.com/300" alt="Proyecto 3">
+                    <h3>Nombre del Proyecto 3</h3>
+                    <p>Detalles sobre este proyecto, incluyendo desafíos y soluciones implementadas.</p>
+                    <a href="#" target="_blank">Ver Proyecto</a>
+                </div>
+                </div>
+        </section>
+
+        <section id="skills">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>[Tu Habilidad 4]</li>
+                <li>[Tu Habilidad 5]</li>
+                </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>¿Interesado en colaborar o simplemente quieres saludar? ¡No dudes en contactarme!</p>
+            <p>Email: <a href="mailto:tuemail@example.com">tuemail@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/tuperfil" target="_blank">linkedin.com/in/tuperfil</a></p>
+            <p>GitHub: <a href="https://github.com/tuusuario" target="_blank">github.com/tuusuario</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 [Tu Nombre]. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
